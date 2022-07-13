@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
+:root{
+  --Mukta: 'Mukta', sans-serif;
+
+  --luxblue: #13265C;
+  --deepchampagne: #ECD9A3;
+  --goldenbrown: #5C4913;
+  --softblue: #A1A8BE;
+}
+
+body {
+  background-image: url("images/pociag.png");
+  background-position: center;
+  background-size: cover; 
+  font-family: 'Mukta', sans-serif;
+  margin: 0 auto;
+  margin-bottom: 65px;
+}
+
+header {
+  font-family: var(--Mukta);
+  font-weight: bold;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  height: 100px;
+  margin-bottom: 70px;
+}
+
+.float-container {
+  display: grid;
+  grid-template-columns: 10% 65% 5% 20%;
+  grid-gap: 20px;
+  align-items: center;
+  text-align: center;
+  background-color: var(--luxblue);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.float-container a:link {
+  text-decoration: none;
+  color: var(--softblue);
+}
+
+.float-container a:visited {
+  text-decoration: none;
+  color: var(--softblue);
+}
+
+.float-child1 img {
+  width: 50px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+.float-child3 {
+  width: 70px;
+}
+
+.float-child3 a:link{
+  color: var(--softblue);
+}
+
+.float-child3 a:hover {
+  color: whitesmoke;
+}
+
+.float-child4 img {
+  width: 50px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+ 
+
+h1 {
+  font-size: 25px;
+}
+
+main {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    height: 65vh;
+    margin: auto;
+    width: 70%;
+    background-color: #E7E9EF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  /*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.container:before,
+.container:after {
+  content: "";
+}
+.container:after {
+  clear: both;
+}
+
+  .container {
+    clear: both;
+    *zoom: 1;
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;  
+  }
+
+.pfp {
+    width: 281px;
+    height: 281px;
+    padding: 5%;
+    float: left;
+}
+
+.pfp img {
+    height: 800px; 
+    width: 800px; 
+    max-width: 250px; 
+    max-height: 250px;
+    margin:  auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ }   
+.data {
+    width: 30%; 
+    padding: 5%;
+    margin: 5%;
+    max-width: 300px;
+    max-height: 400px;
+    float: right;
+    background-color: #B8BECE;
+    font-weight: bold;
+    box-shadow: rgba(100, 100, 111, 0.2) 15px 7px 29px 0px;
+}
+
+.btn {
+    padding: 5%;
+    background-color: #293863;
+    color: whitesmoke;
+    font-weight: bold;
+    border: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 15px 7px 29px 0px;
+    display: block;
+    margin: 0 auto; 
+  }
+
+input.btn[type=submit]:hover {
+  background-color: #5A678D;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-left: 1%;
+    line-height: 1;
+    background-color: whitesmoke;
+    opacity: 0.75;
+    box-shadow: rgba(100, 100, 111, 0.2) 15px 7px 29px 0px;
+  }
+
+.footer2  p  a  {
+    text-decoration: none;
+    color: var(--luxblue);
+}

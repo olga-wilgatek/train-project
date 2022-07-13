@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href = "main_page.css">
+  <title>Train connections search engine</title>
+</head>
+<body>
+  <header>
+    <section class="float-container">
+      <div class = "float-child1">
+        <a href="profile_page.html"><img src = "images/avatar.jpg" alt="Profile"></a> 
+      </div>
+      <div class = "float-child2">
+        <h1 id="name">Search connection</h1>
+      </div>
+      <div class = "float-child3">
+        <a href="login_register.html">Log in or Sign up</a> 
+      </div>
+      <div class = "float-child4">
+        <a href="main_page.html"><img src="images/logo.jpg" alt="Home"></a> 
+      </div>
+    </section>
+  </header>
+<main>
+  <article>
+    <section>    
+      <div class = "searcher">
+        <fieldset>
+          <h2 id="sfc">Search for connection</h2>
+          <div class = "wrapper">
+            <form action="connection_search.php" method="get">
+              <div class = "row">
+                <div class = "departure">
+                  <input type="text" id="ds" placeholder="Departure from..." name="ds" required></p>
+                </div>
+              </div>
+              <div class = "row">
+                <div class = "arrival">
+                  <input type="text" id="as" placeholder="Arrival to..." name="as" required>
+                </div>
+              </div>
+              <div class = "row">
+                <div class = "day">
+                  <input type="text" id="day" placeholder="Day of week e.g. Monday" name="dow" required> 
+                </div>
+                <div class = "clock">
+                  <input type="time" id="time" name="time" required>
+                </div>
+              </div>
+            </form>
+          </div>
+          <form action="no_results.html">
+            <div>
+              <input class = "btn" type="submit" id="search" value="Search" name="search" />
+            </div>
+          </form>
+        </fieldset>
+      </section>
+    </article>
+  </div>
+</main>
+<footer>
+    <div class = "footer1">
+    <p>
+      Copyright&copy; 2022 IAD Team 4
+    </p>
+    </div>
+    <div class = "footer2">
+      <p>
+        <a href="contact_us.html">Contact Me</a> |
+        <a href="about_us.html">About Me</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
