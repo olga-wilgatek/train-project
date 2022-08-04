@@ -9,6 +9,11 @@
   --softblue: #A1A8BE;
 }
 
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
 body {
   position: fixed;
   width: 100%;
@@ -184,4 +189,10 @@ footer {
 .footer2  p  a  {
   text-decoration: none;
   color: var(--luxblue);
+}
+
+@media screen and (max-height: 750px){
+  footer{
+    display: none; 
+  }
 }
