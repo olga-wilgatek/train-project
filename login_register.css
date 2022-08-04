@@ -10,11 +10,11 @@
 }
 
 body {
+  position: fixed;
+  width: 100%;
   background-image: url("images/pociag.png");
-  background-position: center;
-  background-size: cover; 
+  background-size: cover;
   font-family: 'Mukta', sans-serif;
-  height: 100%;
   margin: 0 auto;
   margin-bottom: 65px;
 }
@@ -171,7 +171,7 @@ background-color: #5A678D;
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   padding-left: 1%;
